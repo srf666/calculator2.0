@@ -70,6 +70,7 @@ class ViewController: UIViewController {
                     default:
                               break
                     }
+                    flag=0
           }
           @IBAction func opposite(sender: AnyObject) {
                     temp=(Double)(x.text!)!
