@@ -91,6 +91,24 @@ class ViewController: UIViewController {
                     temp=0
                     x.text=""
                     flag=0
+                    pointval = false
+          }
+          @IBAction func fzy(sender: AnyObject) {
+                    if(x.text != "0"){
+                     temp=(Double)(x.text!)!
+                     temp=1/temp
+                     x.text="\(temp)"
+                    }
+                    else{
+                     x.text="大兄弟，零不能这么玩啊"
+                    }
+                    pointval = false
+          }
+          @IBAction func xx(sender: AnyObject) {
+                    temp=(Double)(x.text!)!
+                    temp=temp*temp
+                    x.text="\(temp)"
+                    pointval = false
           }
           @IBAction func one(sender: AnyObject) {
                     x.text=x.text!+"1"
