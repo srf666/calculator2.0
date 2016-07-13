@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3E946D241D36300600CBD268 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E946D231D36300600CBD268 /* icon.png */; };
+		3E83B6FF1D363A7C000120E4 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E83B6FE1D363A7C000120E4 /* icon.png */; };
 		3EA37B121D1A9B260025D0AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA37B111D1A9B260025D0AB /* AppDelegate.swift */; };
 		3EA37B141D1A9B260025D0AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA37B131D1A9B260025D0AB /* ViewController.swift */; };
 		3EA37B171D1A9B260025D0AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EA37B151D1A9B260025D0AB /* Main.storyboard */; };
@@ -15,6 +15,8 @@
 		3EA37B1C1D1A9B260025D0AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EA37B1A1D1A9B260025D0AB /* LaunchScreen.storyboard */; };
 		3EA37B271D1A9B260025D0AB /* _2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA37B261D1A9B260025D0AB /* _2Tests.swift */; };
 		3EA37B321D1A9B260025D0AB /* _2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA37B311D1A9B260025D0AB /* _2UITests.swift */; };
+		3EED29651D36481100774D52 /* 810a19d8bc3eb135306728d2a71ea8d3fd1f4432.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3EED29641D36481100774D52 /* 810a19d8bc3eb135306728d2a71ea8d3fd1f4432.jpg */; };
+		3EED29691D364A2500774D52 /* 屏幕快照 2016-07-13 下午6.05.49.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EED29681D364A2500774D52 /* 屏幕快照 2016-07-13 下午6.05.49.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3E946D231D36300600CBD268 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
+		3E83B6FE1D363A7C000120E4 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		3EA37B0E1D1A9B260025D0AB /* 12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 12.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EA37B111D1A9B260025D0AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EA37B131D1A9B260025D0AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		3EA37B2D1D1A9B260025D0AB /* 12UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 12UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EA37B311D1A9B260025D0AB /* _2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _2UITests.swift; sourceTree = "<group>"; };
 		3EA37B331D1A9B260025D0AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EED29641D36481100774D52 /* 810a19d8bc3eb135306728d2a71ea8d3fd1f4432.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 810a19d8bc3eb135306728d2a71ea8d3fd1f4432.jpg; sourceTree = "<group>"; };
+		3EED29681D364A2500774D52 /* 屏幕快照 2016-07-13 下午6.05.49.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2016-07-13 下午6.05.49.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +105,9 @@
 			children = (
 				3EA37B111D1A9B260025D0AB /* AppDelegate.swift */,
 				3EA37B131D1A9B260025D0AB /* ViewController.swift */,
-				3E946D231D36300600CBD268 /* icon.png */,
+				3EED29641D36481100774D52 /* 810a19d8bc3eb135306728d2a71ea8d3fd1f4432.jpg */,
+				3E83B6FE1D363A7C000120E4 /* icon.png */,
+				3EED29681D364A2500774D52 /* 屏幕快照 2016-07-13 下午6.05.49.png */,
 				3EA37B151D1A9B260025D0AB /* Main.storyboard */,
 				3EA37B181D1A9B260025D0AB /* Assets.xcassets */,
 				3EA37B1A1D1A9B260025D0AB /* LaunchScreen.storyboard */,
@@ -196,7 +202,6 @@
 				TargetAttributes = {
 					3EA37B0D1D1A9B260025D0AB = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = LQWQ5J6D68;
 					};
 					3EA37B211D1A9B260025D0AB = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -233,10 +238,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E946D241D36300600CBD268 /* icon.png in Resources */,
+				3E83B6FF1D363A7C000120E4 /* icon.png in Resources */,
+				3EED29691D364A2500774D52 /* 屏幕快照 2016-07-13 下午6.05.49.png in Resources */,
 				3EA37B1C1D1A9B260025D0AB /* LaunchScreen.storyboard in Resources */,
 				3EA37B191D1A9B260025D0AB /* Assets.xcassets in Resources */,
 				3EA37B171D1A9B260025D0AB /* Main.storyboard in Resources */,
+				3EED29651D36481100774D52 /* 810a19d8bc3eb135306728d2a71ea8d3fd1f4432.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
