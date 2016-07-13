@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E946D241D36300600CBD268 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E946D231D36300600CBD268 /* icon.png */; };
 		3EA37B121D1A9B260025D0AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA37B111D1A9B260025D0AB /* AppDelegate.swift */; };
 		3EA37B141D1A9B260025D0AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA37B131D1A9B260025D0AB /* ViewController.swift */; };
 		3EA37B171D1A9B260025D0AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EA37B151D1A9B260025D0AB /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E946D231D36300600CBD268 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
 		3EA37B0E1D1A9B260025D0AB /* 12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 12.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EA37B111D1A9B260025D0AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EA37B131D1A9B260025D0AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				3EA37B111D1A9B260025D0AB /* AppDelegate.swift */,
 				3EA37B131D1A9B260025D0AB /* ViewController.swift */,
+				3E946D231D36300600CBD268 /* icon.png */,
 				3EA37B151D1A9B260025D0AB /* Main.storyboard */,
 				3EA37B181D1A9B260025D0AB /* Assets.xcassets */,
 				3EA37B1A1D1A9B260025D0AB /* LaunchScreen.storyboard */,
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					3EA37B0D1D1A9B260025D0AB = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = LQWQ5J6D68;
 					};
 					3EA37B211D1A9B260025D0AB = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -229,6 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E946D241D36300600CBD268 /* icon.png in Resources */,
 				3EA37B1C1D1A9B260025D0AB /* LaunchScreen.storyboard in Resources */,
 				3EA37B191D1A9B260025D0AB /* Assets.xcassets in Resources */,
 				3EA37B171D1A9B260025D0AB /* Main.storyboard in Resources */,
@@ -400,10 +405,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = 12/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "c--.-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -412,10 +419,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = 12/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "c--.-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

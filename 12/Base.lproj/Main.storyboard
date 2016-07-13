@@ -167,7 +167,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Apv-8H-PMp">
                                 <rect key="frame" x="28" y="468" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="+/-"/>
                                 <connections>
                                     <action selector="opposite:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ch3-ky-oCm"/>
@@ -194,7 +194,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Jte-bx-veN">
                                 <rect key="frame" x="28" y="538" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="1/x"/>
                                 <connections>
                                     <action selector="fzy:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u5c-8d-lGO"/>
